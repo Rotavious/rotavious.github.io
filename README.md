@@ -1,2 +1,2 @@
-# .github.io
+# Intro
 Hello, welcome to my github page. 
