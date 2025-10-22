@@ -50,6 +50,27 @@
     background: rgba(255, 255, 255, 0.05);
     font-size: 0.9em;
   }
+  
+  @media print {
+    html, body {
+      height: auto !important;
+      overflow: visible !important;
+      background: #000 !important;
+      color: #fff !important;
+    }
+    iframe {
+      height: 1200px !important;
+      overflow: visible !important;
+    }
+    header, footer {
+      position: relative !important;
+    }
+    * {
+      -webkit-print-color-adjust: exact !important;
+      color-adjust: exact !important;
+    }
+  }
+
 </style>
 </head>
 
